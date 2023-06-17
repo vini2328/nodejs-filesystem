@@ -1,5 +1,5 @@
-import * as fs from 'fs/promises';
-import express from 'express';
+const fs =require('fs/promises')
+const express = require('express')
 
 const app = express();
 const port = 3000;
